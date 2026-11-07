@@ -34,7 +34,6 @@ void choice_friend();
 void choice_foe();
 
 void choice_wait1();
-void choice_wait2();
 
 // TODO: add more choices here
 
@@ -202,21 +201,45 @@ void choice_forrest() {
     choice_forrest();  // try again
     }
 }
-void choice_friend() { TODO
-    cout << "You attempt to open the doors." << endl;
-    cout << "They are locked." << endl;
-    cout << "You notice a keypad to the right of the shelter doors." << endl;
-    cout << "You do not know the code." << endl;
-    cout << "Do you: " << endl;
-    cout << "1 : Wait" << endl;
-    cout << "2 : Go Back" << endl;
+void choice_friend() { 
+  cout << "You sit down, close your eyes and wait." << endl;
+  cout << "The noises of the forrest surround you." << endl;
+  cout << "The forrest is alive, and quite loud today." << endl;
+  cout << "You hear a million footsteps." << endl;
+  cout << "As you open your eyes," << endl;
+  cout << "You are surrounded by an imperceivable number of large black FRIENDS" << endl;
+  cout << "They are endless." << endl;
+  cout << "You should have ran when you had the chance." << endl;
 }
 
-void choice_foe() { cout << "TODO: Write something here" << endl; }
+void choice_foe() {
+    cout << "You started running." << endl;
+    cout << "The cacophony of the forrest is endless." << endl;
+    cout << "You don't know where something is chasing you." << endl;
+    cout << "You don't plan to find out." << endl;
+    cout << "There is a pointed tail in the distance." << endl;
+    cout << "Without any choice left, you follow it" << endl;
+    cout << "It stays ahead of you, just barely out of reach" << endl;
+    cout << "As if it was leading you somewhere." << endl;
+    cout << "Just as it is within sight," << endl;
+    cout << "You fall into a pit unto a bed of flowers." << endl;
+    cout << "You did not survive." << endl;
+}
 
-void choice_wait1() { cout << "TODO: Write something here" << endl; }
+void choice_wait1() {
+    cout << "You sit down and wait." << endl;
+    cout << "Some time passes, and 2 people approach." << endl;
+    cout << "One quite, and one loud" << endl;
+    cout << "One shy, and one proud" << endl;
+    cout << "They greet you kindly, as if you were friends with them." << endl;
+    cout << "They offer to take you to a dinner, to have a bit to eat." << endl;
+    cout << "Without anything better to do, you agree." << endl;
+    cout << "The food was delicous, and the time merry." << endl;
+    cout << "Then, without warning," << endl;
+    cout << "A loud drone from outside and all around you." << endl;
+    cout << "And then the world was covered in darkness." << endl;
 
-void choice_wait2() { cout << "TODO: Write something here" << endl; }
+}
 
 
 // any new choices go here
